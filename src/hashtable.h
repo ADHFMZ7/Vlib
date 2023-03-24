@@ -10,8 +10,10 @@ typedef struct {
 	char **buckets;
 } Hashtable;
 
-size_t hash(const char *key, size_t size);
+size_t vlib_hash(const char *key, size_t size);
 
-Hashtable *create_hashtable(size_t size);
+Hashtable *vlib_create_hashtable(size_t size);
+
+char *vlib_find_
 
 #endif
